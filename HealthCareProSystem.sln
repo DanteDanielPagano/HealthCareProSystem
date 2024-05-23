@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Enterprise Business Rules", "1. Enterprise Business Rules", "{516E4318-5A39-4794-861B-50315EB69CD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Business Rules", "2. Application Business Rules", "{07366B5D-2A95-4946-BC22-1D5FF9285CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3. Interface Adapters", "{9B662A4F-21D6-4136-A07A-F72F6038F00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{442B430B-3F5D-4D57-887D-24D6208B17B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.Entity.Backend", "HealthCareProSystem.PatientRegistry.Backend\HealthCareProSystem.PatientRegistry.Entity.Backend.csproj", "{6B2970FC-B936-4CB7-8245-997E49E9564A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.BusinessObjects", "HealthCareProSystem.PatientRegistry.BusinessObjects\HealthCareProSystem.PatientRegistry.BusinessObjects.csproj", "{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareProSystem.PatientRegistry.BackEnd.Repositories", "HealthCareProSystem.PatientRegistry.BackEnd.Repositories\HealthCareProSystem.PatientRegistry.BackEnd.Repositories.csproj", "{8C2F0571-BC29-412A-91DE-934056023C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B2970FC-B936-4CB7-8245-997E49E9564A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2970FC-B936-4CB7-8245-997E49E9564A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2970FC-B936-4CB7-8245-997E49E9564A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2970FC-B936-4CB7-8245-997E49E9564A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2F0571-BC29-412A-91DE-934056023C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2F0571-BC29-412A-91DE-934056023C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2F0571-BC29-412A-91DE-934056023C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2F0571-BC29-412A-91DE-934056023C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B2970FC-B936-4CB7-8245-997E49E9564A} = {516E4318-5A39-4794-861B-50315EB69CD1}
+		{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F} = {07366B5D-2A95-4946-BC22-1D5FF9285CCE}
+		{8C2F0571-BC29-412A-91DE-934056023C05} = {9B662A4F-21D6-4136-A07A-F72F6038F00C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFFEAE6B-E5B8-4004-A984-91063BDAC193}
+	EndGlobalSection
+EndGlobal
