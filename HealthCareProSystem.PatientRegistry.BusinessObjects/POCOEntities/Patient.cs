@@ -1,9 +1,9 @@
-﻿using HealthCare.PatientRegistry.BusinessObjects.Commons;
-using HealthCareProSystem.PatientRegistry.Entity.Backend.Enums;
+﻿using HealthCareProSystem.PatientRegistry.Entity.Backend.Enums;
 
 namespace HealthCare.PatientRegistry.BusinessObjects.POCOEntities;
-public class Patient : BaseEntity
+public class Patient
 {
+    public int Id { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public DateTime DateOfBirth { get; set; }

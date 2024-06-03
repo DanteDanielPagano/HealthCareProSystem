@@ -21,10 +21,6 @@ public class PatientRegistryAggregate : Patient
             preexistingConditions,
             additionalComments);
     }
-    private void AddMedicines(IEnumerable<MedicineRegistryDto> medications)
-    {
-        _medicalInformation. = medications;
-    }
     /// <summary>
     /// Method to map data from the DTO to the POCO entity
     /// </summary>
@@ -49,12 +45,21 @@ public class PatientRegistryAggregate : Patient
         if (createPatientDto.MedicalInformation != null)
         {
             List<Medicine> medicines = new List<Medicine>();
+            var Medicines = createPatientDto.MedicalInformation.Medicines;
 
-            if (createPatientDto.MedicalInformation.Medicines != null)
+            if (Medicines != null)
             {
-                medicines = createPatientDto.MedicalInformation.Medicines
-                .Select(medicine => new Medicine(medicine.Name, medicine.Dose, medicine.Frequency, medicine.AdditionalComments))
-                .ToList();
+                foreach (var medicine in
+                    createPatientDto.MedicalInformation.Medicines)
+                {
+                    medicines.Add(new Medicine(medicine.Name,
+                        medicine.Dose,
+                        medicine.Frequency,
+                        medicine.AdditionalComments));
+                }
+                //medicines = createPatientDto.MedicalInformation.Medicines
+                //.Select(medicine => new Medicine(medicine.Name, medicine.Dose, medicine.Frequency, medicine.AdditionalComments))
+                //.ToList();
             }
             patientAggregate.AddMedicalInformation(
                 createPatientDto.MedicalInformation.Allergies,
