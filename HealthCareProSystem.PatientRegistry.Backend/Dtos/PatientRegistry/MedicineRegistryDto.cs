@@ -1,4 +1,4 @@
-﻿namespace HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+﻿namespace HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 public class MedicineRegistryDto(string name, string dose, string frequency,
     string additionalComments)
 {

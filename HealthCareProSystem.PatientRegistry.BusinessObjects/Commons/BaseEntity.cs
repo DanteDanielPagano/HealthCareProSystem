@@ -1,4 +1,4 @@
-﻿namespace HealthCare.PatientRegistry.BusinessObjects.Commons;
+﻿namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Commons;
 public class BaseEntity
 {
     public int Id { get; set; }

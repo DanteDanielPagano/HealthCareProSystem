@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interface Adapters", "3.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{442B430B-3F5D-4D57-887D-24D6208B17B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.Entity.Backend", "HealthCareProSystem.PatientRegistry.Backend\HealthCareProSystem.PatientRegistry.Entity.Backend.csproj", "{6B2970FC-B936-4CB7-8245-997E49E9564A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.Entity", "HealthCareProSystem.PatientRegistry.Backend\HealthCareProSystem.PatientRegistry.Entity.csproj", "{6B2970FC-B936-4CB7-8245-997E49E9564A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.BusinessObjects", "HealthCareProSystem.PatientRegistry.BusinessObjects\HealthCareProSystem.PatientRegistry.BusinessObjects.csproj", "{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.Backend.BusinessObjects", "HealthCareProSystem.PatientRegistry.BusinessObjects\HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.csproj", "{9857C7E1-7990-4F20-8229-D4AFB4ADEF8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareProSystem.PatientRegistry.BackEnd.Repositories", "HealthCareProSystem.PatientRegistry.BackEnd.Repositories\HealthCareProSystem.PatientRegistry.BackEnd.Repositories.csproj", "{8C2F0571-BC29-412A-91DE-934056023C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCareProSystem.PatientRegistry.BackEnd.Repositories", "HealthCareProSystem.PatientRegistry.BackEnd.Repositories\HealthCareProSystem.PatientRegistry.BackEnd.Repositories.csproj", "{8C2F0571-BC29-412A-91DE-934056023C05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

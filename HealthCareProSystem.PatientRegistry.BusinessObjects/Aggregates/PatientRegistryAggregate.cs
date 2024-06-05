@@ -1,8 +1,8 @@
-﻿using HealthCare.PatientRegistry.BusinessObjects.POCOEntities;
-using HealthCare.PatientRegistry.BusinessObjects.ValueObjects;
-using HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+﻿using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.POCOEntities;
+using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.ValueObjects;
+using HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 
-namespace HealthCare.PatientRegistry.BusinessObjects.Aggregates;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Aggregates;
 public class PatientRegistryAggregate : Patient
 {
     private MedicalInformation _medicalInformation;

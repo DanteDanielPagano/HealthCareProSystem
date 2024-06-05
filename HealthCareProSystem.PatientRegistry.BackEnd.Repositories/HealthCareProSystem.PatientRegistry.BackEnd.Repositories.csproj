@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HealthCareProSystem.PatientRegistry.BusinessObjects\HealthCareProSystem.PatientRegistry.BusinessObjects.csproj" />
+    <ProjectReference Include="..\HealthCareProSystem.PatientRegistry.BusinessObjects\HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.csproj" />
   </ItemGroup>
 
 </Project>

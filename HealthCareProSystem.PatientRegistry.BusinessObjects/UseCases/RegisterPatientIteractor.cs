@@ -1,9 +1,9 @@
-﻿using HealthCare.PatientRegistry.BusinessObjects.Aggregates;
-using HealthCareProSystem.PatientRegistry.BusinessObjects.Interfaces.PatientRegistry;
-using HealthCareProSystem.PatientRegistry.BusinessObjects.Repositories;
-using HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+﻿using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Aggregates;
+using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Interfaces.PatientRegistry;
+using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Repositories;
+using HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 
-namespace HealthCareProSystem.PatientRegistry.BusinessObjects.UseCases;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.UseCases;
 public class RegisterPatientIteractor : IPatientRegistryInputPort
 {
     private readonly IPatientRegistryOutputPort _outputPort;

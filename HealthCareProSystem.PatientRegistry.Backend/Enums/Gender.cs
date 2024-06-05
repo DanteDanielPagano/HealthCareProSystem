@@ -1,4 +1,4 @@
-﻿namespace HealthCareProSystem.PatientRegistry.Entity.Backend.Enums;
+﻿namespace HealthCareProSystem.PatientRegistry.Entity.Enums;
 public enum Gender
 {
     Male = 1,       // Hombre

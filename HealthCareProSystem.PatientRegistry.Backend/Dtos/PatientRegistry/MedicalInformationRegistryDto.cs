@@ -1,4 +1,4 @@
-﻿namespace HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+﻿namespace HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 
 public class MedicalInformationRegistryDto(string allergies,
     IEnumerable<MedicineRegistryDto> medicines,

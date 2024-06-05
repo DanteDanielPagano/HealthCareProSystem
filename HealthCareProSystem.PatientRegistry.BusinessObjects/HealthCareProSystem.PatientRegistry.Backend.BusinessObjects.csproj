@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HealthCareProSystem.PatientRegistry.Backend\HealthCareProSystem.PatientRegistry.Entity.Backend.csproj" />
+    <ProjectReference Include="..\HealthCareProSystem.PatientRegistry.Backend\HealthCareProSystem.PatientRegistry.Entity.csproj" />
   </ItemGroup>
 
 </Project>

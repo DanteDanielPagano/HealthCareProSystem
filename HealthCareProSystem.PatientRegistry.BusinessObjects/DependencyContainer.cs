@@ -1,7 +1,8 @@
-﻿using HealthCareProSystem.PatientRegistry.BusinessObjects.Interfaces.PatientRegistry;
-using HealthCareProSystem.PatientRegistry.BusinessObjects.UseCases;
+﻿using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Interfaces.PatientRegistry;
+using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.UseCases;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Microsoft.Extensions.DependencyInjection;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects;
 public static class DependencyContainer
 {
     public static IServiceCollection AddUseCasesServices(

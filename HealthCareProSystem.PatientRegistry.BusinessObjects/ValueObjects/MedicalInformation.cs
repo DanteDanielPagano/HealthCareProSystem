@@ -1,4 +1,4 @@
-﻿namespace HealthCare.PatientRegistry.BusinessObjects.ValueObjects;
+﻿namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.ValueObjects;
 public class MedicalInformation(string allergies,
     IEnumerable<Medicine> currentMedications,
     string preexistingConditions, string additionalComments)

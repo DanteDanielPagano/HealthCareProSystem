@@ -1,6 +1,6 @@
-﻿using HealthCare.PatientRegistry.BusinessObjects.Aggregates;
+﻿using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Aggregates;
 
-namespace HealthCareProSystem.PatientRegistry.BusinessObjects.Interfaces.PatientRegistry;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Interfaces.PatientRegistry;
 public interface IPatientRegistryOutputPort
 {
     double PatientId { get; }

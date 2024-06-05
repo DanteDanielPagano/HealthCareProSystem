@@ -1,6 +1,6 @@
-﻿using HealthCareProSystem.PatientRegistry.Entity.Backend.Enums;
+﻿using HealthCareProSystem.PatientRegistry.Entity.Enums;
 
-namespace HealthCare.PatientRegistry.BusinessObjects.POCOEntities;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.POCOEntities;
 public class Patient
 {
     public int Id { get; set; }

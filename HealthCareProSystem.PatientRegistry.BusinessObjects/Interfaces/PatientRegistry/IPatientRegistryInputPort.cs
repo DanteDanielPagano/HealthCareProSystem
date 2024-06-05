@@ -1,6 +1,6 @@
-﻿using HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+﻿using HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 
-namespace HealthCareProSystem.PatientRegistry.BusinessObjects.Interfaces.PatientRegistry;
+namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.Interfaces.PatientRegistry;
 public interface IPatientRegistryInputPort
 {
     Task Handle(PatientRegistryDto patientRegistryDto);

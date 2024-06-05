@@ -1,5 +1,5 @@
-﻿using HealthCare.PatientRegistry.BusinessObjects.POCOEntities;
-using HealthCare.PatientRegistry.BusinessObjects.ValueObjects;
+﻿using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.POCOEntities;
+using HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.ValueObjects;
 using HealthCareProSystem.PatientRegistry.BackEnd.Repositories.Entities;
 
 namespace HealthCareProSystem.PatientRegistry.BackEnd.Repositories.Interfaces;

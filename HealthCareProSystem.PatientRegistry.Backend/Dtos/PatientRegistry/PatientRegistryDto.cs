@@ -1,6 +1,6 @@
-﻿using HealthCareProSystem.PatientRegistry.Entity.Backend.Enums;
+﻿using HealthCareProSystem.PatientRegistry.Entity.Enums;
 
-namespace HealthCareProSystem.PatientRegistry.Entity.Backend.Dtos.PatientRegistry;
+namespace HealthCareProSystem.PatientRegistry.Entity.Dtos.PatientRegistry;
 public class PatientRegistryDto(string firstName,
     string lastName, DateTime dateOfBirth, BiologicalSex sex, Gender gender,
     string address, string phoneNumber, string email,

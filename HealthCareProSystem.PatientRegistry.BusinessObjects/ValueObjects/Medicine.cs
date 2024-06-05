@@ -1,4 +1,4 @@
-﻿namespace HealthCare.PatientRegistry.BusinessObjects.ValueObjects;
+﻿namespace HealthCareProSystem.PatientRegistry.Backend.BusinessObjects.ValueObjects;
 
 public class Medicine(string name, string dose, string frequency,
     string additionalComments)
